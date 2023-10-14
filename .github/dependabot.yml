@@ -1,0 +1,17 @@
+version: 2
+updates:
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    target-branch: "az-function-quickstart"
+    schedule:
+      # Check for updates to GitHub Actions once a week on Monday
+      interval: "weekly"
+      day: "monday"
+  - package-ecosystem: "npm"
+    directory: "/"
+    target-branch: "az-function-quickstart"
+    schedule:
+      # Check for updates to GitHub Actions once a week on Monday
+      interval: "weekly"
+      day: "monday"    
