@@ -1,6 +1,6 @@
 // For format details, see https://aka.ms/devcontainer.json.
 {
-	"name": "Azure Developer CLI (Bicep)",
+	"name": "Azure Developer CLI (Default - Bicep)",
 	"image": "mcr.microsoft.com/devcontainers/typescript-node:18-bullseye",
 	"features": {
 		"ghcr.io/jlaundry/devcontainer-features/azure-functions-core-tools:1": {},
