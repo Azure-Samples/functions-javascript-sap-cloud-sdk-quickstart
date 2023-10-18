@@ -2,6 +2,8 @@
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=az-function-quickstart&repo=704534226)
 
+> **Warning** - repos still in transition from prior. Find latest working version on branch [az-function-quickstart](https://github.com/Azure-Samples/app-service-javascript-sap-cloud-sdk-quickstart/tree/az-function-quickstart).
+
 This repos serves as quick-start project showcasing [SAP Cloud SDK for JavaScript](https://sap.github.io/cloud-sdk/docs/js/tutorials/getting-started/introduction) OData consumption running on [Azure Functions](https://learn.microsoft.com/azure/azure-functions/functions-overview?pivots=programming-language-javascript). Its primary purpose is to set you up for success for your SAP extension project on Azure and reduce the lead time to your first successful deployment as much as possible with developer friendly commands.
 
 It uses the [Business Partner OData v2 API](https://api.sap.com/api/OP_API_BUSINESS_PARTNER_SRV/overview) for SAP S/4HANA as an example.
