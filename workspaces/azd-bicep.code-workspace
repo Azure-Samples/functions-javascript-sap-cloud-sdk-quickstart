@@ -1,0 +1,16 @@
+{
+    "folders": [
+        {
+            "path": "../",
+            "name": "SAP Cloud SDK on Azure Functions Quickstart - Bicep"
+        }
+    ],
+    "settings": {
+        "files.exclude": {
+            "infra-btpsa": true,
+            "workspaces": true,
+            ".devcontainer/btpsa": true
+        },
+        "debug.internalConsoleOptions": "neverOpen"
+    }
+}

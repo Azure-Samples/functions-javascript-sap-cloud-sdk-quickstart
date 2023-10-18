@@ -1,0 +1,43 @@
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+  - task: setup-azd@0
+    displayName: Install azd
+
+  - pwsh: |
+      $info = $Env:AZURE_CREDENTIALS | ConvertFrom-Json -AsHashtable;
+
+      azd auth login `
+        --client-id "$($info.clientId)" `
+        --client-secret "$($info.clientSecret)" `
+        --tenant-id "$($info.tenantId)"
+    displayName: azd login
+    env:
+      AZURE_CREDENTIALS: $(AZURE_CREDENTIALS)
+
+  - pwsh: |
+      azd provision --no-prompt
+    displayName: Provision Infrastructure
+    env:
+      AZURE_SUBSCRIPTION_ID: $(AZURE_SUBSCRIPTION_ID)
+      AZURE_ENV_NAME: $(AZURE_ENV_NAME)
+      AZURE_LOCATION: $(AZURE_LOCATION)
+      ODATA_URL: $(ODATA_URL)
+      ODATA_USERNAME: $(ODATA_USERNAME)
+      ODATA_USERPWD: $(ODATA_USERPWD)
+      APIKEY: $(APIKEY)
+      APIKEY_HEADERNAME: $(APIKEY_HEADERNAME)
+
+  - pwsh: |
+      azd deploy --no-prompt
+    displayName: Deploy Application
+    env:
+      AZURE_SUBSCRIPTION_ID: $(AZURE_SUBSCRIPTION_ID)
+      AZURE_ENV_NAME: $(AZURE_ENV_NAME)
+      AZURE_LOCATION: $(AZURE_LOCATION)
+      ODATA_URL: $(ODATA_URL)
+      ODATA_USERNAME: $(ODATA_USERNAME)
+      ODATA_USERPWD: $(ODATA_USERPWD)
+      APIKEY: $(APIKEY)
+      APIKEY_HEADERNAME: $(APIKEY_HEADERNAME)
