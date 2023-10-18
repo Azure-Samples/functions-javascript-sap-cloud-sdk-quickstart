@@ -63,7 +63,7 @@ resource restApi 'Microsoft.ApiManagement/service/apis@2023-03-01-preview' = {
     /* Use with smaller metadata XML documents using loadTextContent()*/
     /* or supply as OData v4 metadata JSON definition. Generate from EDMX here: https://aka.ms/ODataOpenAPI */
     /*value: string(loadTextContent('../../src/api/API_BUSINESS_PARTNER.edmx'))*/
-    value: 'https://raw.githubusercontent.com/Azure-Samples/app-service-javascript-sap-cloud-sdk-quickstart/main/src/api/API_BUSINESS_PARTNER.edmx'
+    value: 'https://raw.githubusercontent.com/Azure-Samples/functions-javascript-sap-cloud-sdk-quickstart/main/src/api/API_BUSINESS_PARTNER.edmx'
   }
 }
 

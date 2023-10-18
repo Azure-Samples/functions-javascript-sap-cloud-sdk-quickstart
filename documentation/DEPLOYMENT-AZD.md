@@ -153,7 +153,7 @@ Deploying the infrastructure and the application via one command means that ther
 ```yaml
 # yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
 
-name: app-service-javascript-sap-cloud-sdk-quickstart
+name: functions-javascript-sap-cloud-sdk-quickstart
 metadata:
   template: app-service-javascript-sap-cloud-sdk-quickstart
 services:

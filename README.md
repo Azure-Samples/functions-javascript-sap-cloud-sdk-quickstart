@@ -78,11 +78,11 @@ This command will prompt you for the following information:
    > **Note** - This may take a while to complete as it executes three commands: `azd package` (packages a deployable copy of your application), `azd provision` (provisions Azure resources), and `azd deploy` (deploys application code). You will see a progress indicator as it packages, provisions and deploys your application.
 
 3. Select suitable [VS Code workspace](https://code.visualstudio.com/docs/editor/workspaces). We suggest [bicep](workspaces/azd-bicep.code-workspace) as it is the default for Azure Developer CLI.
-4. `cd app-service-javascript-sap-cloud-sdk-quickstart/src/api`
+4. `cd functions-javascript-sap-cloud-sdk-quickstart/src/api`
 5. `npm install`
 6. `npm run start:azure`
 7. browse to [http://localhost:8080/api/](http://localhost:8080/api/) for your "hello world"
-8. maintain your SAP OData url with credentials in [.env](templates/.env) file (put in project root `app-service-javascript-sap-cloud-sdk-quickstart/src/api`) and restart the app if necessary
+8. maintain your SAP OData url with credentials in [.env](templates/.env) file (put in project root `functions-javascript-sap-cloud-sdk-quickstart/src/api`) and restart the app if necessary
 9. browse to [http://localhost:8080/api/business-partner](http://localhost:8080/api/business-partner) for your first OData call and pick one of the business partners (examples below use ids from SAP mock server)
 
    > **Note** - SAP's examples for the business partner API for SAP S/4HANA Cloud mentioned in the tutorial **differ** to the SAP S/4HANA on-premises flavor. Add AddressUsage, otherwise you will see "Internal error when calling operation module BUA_CHECK_ADDRESS_VALIDITY_ALL; a check table is missing". Check SAP KBA's for more details.
@@ -138,7 +138,7 @@ We collected additional resources and related efforts and projects [here](docume
 
 ## Contributing 👩🏼‍🤝‍👨🏽
 
-This project welcomes contributions and suggestions. Please use [GitHub Issues](https://github.com/Azure-Samples/app-service-javascript-sap-cloud-sdk-quickstart/issues) to report errors or request new features. For conceptual conversations, please use [GitHub Discussions](https://github.com/Azure-Samples/app-service-javascript-sap-cloud-sdk-quickstart/discussions/categories/ideas)
+This project welcomes contributions and suggestions. Please use [GitHub Issues](https://github.com/Azure-Samples/functions-javascript-sap-cloud-sdk-quickstart/issues) to report errors or request new features. For conceptual conversations, please use [GitHub Discussions](https://github.com/Azure-Samples/functions-javascript-sap-cloud-sdk-quickstart/discussions/categories/ideas)
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or

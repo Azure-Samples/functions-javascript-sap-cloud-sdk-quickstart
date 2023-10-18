@@ -26,7 +26,7 @@
         }
     },
     "remoteUser": "user",
-    "postCreateCommand": "cp -f /workspaces/app-service-javascript-sap-cloud-sdk-quickstart/infra-btpsa/parameters.json  /home/user/parameters.json && cp -f /workspaces/app-service-javascript-sap-cloud-sdk-quickstart/infra-btpsa/usecase.json  /home/user/usecase.json && cd /home/user && echo 'export PATH=\"$HOME/.local/bin:$PATH\"' >> ~/.profile && pip install flake8 black && source ~/.profile",
+    "postCreateCommand": "cp -f /workspaces/functions-javascript-sap-cloud-sdk-quickstart/infra-btpsa/parameters.json  /home/user/parameters.json && cp -f /workspaces/functions-javascript-sap-cloud-sdk-quickstart/infra-btpsa/usecase.json  /home/user/usecase.json && cd /home/user && echo 'export PATH=\"$HOME/.local/bin:$PATH\"' >> ~/.profile && pip install flake8 black && source ~/.profile",
     "workspaceFolder": "/home/user",
     "hostRequirements": {
         "cpus": 2,

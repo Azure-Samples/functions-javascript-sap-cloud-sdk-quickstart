@@ -7,7 +7,7 @@
         "testStatus": "tested successfully",
         "usageStatus": "READY TO BE USED",
         "relatedLinks": [
-            "https://github.com/Azure-Samples/app-service-javascript-sap-cloud-sdk-quickstart"
+            "https://github.com/Azure-Samples/functions-javascript-sap-cloud-sdk-quickstart"
         ]
     },
     "services": [
@@ -58,11 +58,11 @@
     "executeAfterAccountSetup": [
         {
             "description": "Building application assets",
-            "command": "cd /workspaces/app-service-javascript-sap-cloud-sdk-quickstart/src/api && npm ci && npm run build "
+            "command": "cd /workspaces/functions-javascript-sap-cloud-sdk-quickstart/src/api && npm ci && npm run build "
         },
         {
             "description": "Deploying the application",
-            "command": "cd /workspaces/app-service-javascript-sap-cloud-sdk-quickstart/src/api && cf push cloudsdkapp"
+            "command": "cd /workspaces/functions-javascript-sap-cloud-sdk-quickstart/src/api && cf push cloudsdkapp"
         },
         {
             "description": "YOUR MANUAL TODO (Private Link Configuration)",

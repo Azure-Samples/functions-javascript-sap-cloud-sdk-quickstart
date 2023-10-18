@@ -7,4 +7,4 @@ In this example we use the [Azure App Service extension](https://marketplace.vis
 3. Deploy to Web App from VS Code or GitHub Codespaces (right click in the explorer on the project folder and select "Deploy to Web App...").
 4. Browse your new app powered by the SAP Cloud SDK (it takes a while the first time).
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure-Samples%2Fapp-service-javascript-sap-cloud-sdk-quickstart%2Fmain%2Ftemplates%2Fazuredeploy.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure-Samples%2Ffunctions-javascript-sap-cloud-sdk-quickstart%2Fmain%2Ftemplates%2Fazuredeploy.json)
