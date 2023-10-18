@@ -109,7 +109,7 @@ There are multiple ways to deploy this project to Azure. We provide two options 
 
 ## Deploy to SAP BTP 🪂
 
-We provide the necessary configurations for the deployment to SAP BTP leveraging the open source project [btp setup automator](https://github.com/SAP-samples/btp-setup-automator). The configuration comprises the infrastructure as well as the mta build and the deployment to Cloud Foundry. You find more information [here](./documentation/DEPLOYMENT-BTPSA.md).
+This repos build on functions is not configured to be deployed to SAP Business Technology Platform as is. We provide the necessary configurations for the deployment to SAP BTP leveraging the open source project [btp setup automator](https://github.com/SAP-samples/btp-setup-automator) for Azure App Service [here](https://github.com/Azure-Samples/app-service-javascript-sap-cloud-sdk-quickstart#deploy-to-sap-btp-).
 
 ## What's next?
 
