@@ -56,15 +56,8 @@ Use any OData enabled SAP system:
 ### Quickstart 🚀
 
 0. familiarize yourself with the [SAP Cloud SDK for JavaScript developer tutorial](https://sap.github.io/cloud-sdk/docs/js/tutorials/getting-started/introduction)
-1. Run the following command to initialize the project.
 
-   ```bash
-   azd init --template app-service-javascript-sap-cloud-sdk-quickstart
-   ```
-
-   This command will clone the code to your current folder and prompt you for `Environment Name`. This will be used as a prefix for the resource group that will be created to hold all Azure resources. This name should be unique within your Azure subscription.
-
-2. Run the following command to package a deployable copy of your application, provision the template's infrastructure to Azure and also deploy the application code to those newly provisioned resources.
+1. Run the following command to package a deployable copy of your application, provision the template's infrastructure to Azure and also deploy the application code to those newly provisioned resources.
 
    ```bash
    azd up
