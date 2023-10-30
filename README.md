@@ -133,7 +133,7 @@ We collected additional resources and related efforts and projects [here](docume
 
 ## Contributing 👩🏼‍🤝‍👨🏽
 
-This project welcomes contributions and suggestions. Please use [GitHub Issues](https://github.com/Azure-Samples/functions-javascript-sap-cloud-sdk-quickstart/issues) to report errors or request new features. For conceptual conversations, please use [GitHub Discussions](https://github.com/Azure-Samples/functions-javascript-sap-cloud-sdk-quickstart/discussions/categories/ideas)
+This project welcomes contributions and suggestions. Please use [GitHub Issues](https://github.com/Azure-Samples/functions-javascript-sap-cloud-sdk-quickstart/issues) to report errors or request new features. For conceptual conversations, please use [GitHub Discussions](https://github.com/Azure-Samples/app-service-javascript-sap-cloud-sdk-quickstart/discussions/categories/ideas)
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
