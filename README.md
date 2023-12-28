@@ -115,7 +115,7 @@ This repos build on functions is not configured to be deployed to SAP Business T
 
 ## What's next?
 
-You can do a lot more once the app is deployed. Curious? We go you covered with some more information [here](documentation/WHATS-NEXT.md).
+You can do a lot more once the app is deployed. Curious? We go you covered with some more information on **out-of-the-box authentication** with Microsoft Entra ID, insights into networking, OpenUI5 for frontend design, and DevOps [here](documentation/WHATS-NEXT.md).
 
 ## Troubleshooting 🩺
 
