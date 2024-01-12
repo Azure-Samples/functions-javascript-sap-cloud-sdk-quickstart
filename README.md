@@ -59,7 +59,11 @@ Use any OData enabled SAP system:
 
 ### Quickstart 🚀
 
-0. familiarize yourself with the [SAP Cloud SDK for JavaScript developer tutorial](https://sap.github.io/cloud-sdk/docs/js/tutorials/getting-started/introduction)
+Familiarize yourself with the [SAP Cloud SDK for JavaScript developer tutorial](https://sap.github.io/cloud-sdk/docs/js/tutorials/getting-started/introduction)
+
+#### Deploy time
+
+0. Run `azd auth login`.
 
 1. Run the following command to package a deployable copy of your application, provision the template's infrastructure to Azure and also deploy the application code to those newly provisioned resources.
 
@@ -75,33 +79,35 @@ This command will prompt you for the following information:
 > [!NOTE]
 > This may take a while to complete as it executes three commands: `azd package` (packages a deployable copy of your application), `azd provision` (provisions Azure resources), and `azd deploy` (deploys application code). You will see a progress indicator as it packages, provisions and deploys your application.
 
-3. Select suitable [VS Code workspace](https://code.visualstudio.com/docs/editor/workspaces). We suggest [bicep](workspaces/azd-bicep.code-workspace) as it is the default for Azure Developer CLI.
-4. `cd functions-javascript-sap-cloud-sdk-quickstart/src/api`
-5. `npm install`
-6. `npm run start:azure`
-7. browse to [http://localhost:8080/api/](http://localhost:8080/api/) for your "hello world"
-8. maintain your SAP OData url with credentials in [.env](templates/.env) file (put in project root `functions-javascript-sap-cloud-sdk-quickstart/src/api`) and restart the app if necessary
-9. browse to [http://localhost:8080/api/business-partner](http://localhost:8080/api/business-partner) for your first OData call and pick one of the business partners (examples below use ids from SAP mock server)
+#### Dev time
+
+2. Select suitable [VS Code workspace](https://code.visualstudio.com/docs/editor/workspaces). We suggest [bicep](workspaces/azd-bicep.code-workspace) as it is the default for Azure Developer CLI.
+3. `cd functions-javascript-sap-cloud-sdk-quickstart/src/api`
+4. `npm install`
+5. `npm run start:azure`
+6. browse to [http://localhost:8080/api/](http://localhost:8080/api/) for your "hello world"
+7. maintain your SAP OData url with credentials in [.env](templates/.env) file (put in project root `functions-javascript-sap-cloud-sdk-quickstart/src/api`) and restart the app if necessary
+8. browse to [http://localhost:8080/api/business-partner](http://localhost:8080/api/business-partner) for your first OData call and pick one of the business partners (examples below use ids from SAP mock server)
 
 > [!NOTE]
 > SAP's examples for the business partner API for SAP S/4HANA Cloud mentioned in the tutorial **differ** to the SAP S/4HANA on-premises flavor. Add AddressUsage, otherwise you will see "Internal error when calling operation module BUA_CHECK_ADDRESS_VALIDITY_ALL; a check table is missing". Check SAP KBA's for more details.
 
-10. get that business partner by id: [http://localhost:8080/api/business-partner/1003764](http://localhost:8080/api/business-partner/1003764)
+9. get that business partner by id: [http://localhost:8080/api/business-partner/1003764](http://localhost:8080/api/business-partner/1003764)
 
    ![screenshot of successful business partner retrieval by id](assets/bupa-get-vsc-rest.png)
 
-11. update the address with a house number: [http://localhost:8080/api/business-partner/1003764/address/28238](http://localhost:8080/api/business-partner/1003764/address/28238).
+10. update the address with a house number: [http://localhost:8080/api/business-partner/1003764/address/28238](http://localhost:8080/api/business-partner/1003764/address/28238).
 
 > [!NOTE]
 > For your convenience we provide a [collection of REST calls](/templates/business-partner-requests.http) in the repos. Execute them with the [VS Code REST client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client).
 
   ![screenshot of business partner address update with request details](assets/bupa-update-vsc-rest.png)
 
-12. delete the address: [http://localhost:8080/api/business-partner/1003764/address/28238](http://localhost:8080/api/business-partner/1003764/address/28238)
+11. delete the address: [http://localhost:8080/api/business-partner/1003764/address/28238](http://localhost:8080/api/business-partner/1003764/address/28238)
 
    ![screenshot of business partner address delete](assets/bupa-delete-vsc-rest.png)
 
-13. add an address to your chosen business partner: [http://localhost:8080/api/business-partner/1003764/address](http://localhost:8080/api/business-partner/1003764/address)
+12. add an address to your chosen business partner: [http://localhost:8080/api/business-partner/1003764/address](http://localhost:8080/api/business-partner/1003764/address)
 
    ![screenshot of successful business partner address creation with request details](assets/bupa-create-vsc-rest.png)
 
