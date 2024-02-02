@@ -17,6 +17,7 @@ Looking for Azure App Service instead of Functions?🤔 Here you [go](https://gi
 
 > [!TIP]
 > - In case you need to translate between OData versions and metadata specification use our converter [here](https://aka.ms/ODataOpenAPI).
+> - Looking for [SAP Cloud Application Programming model](https://cap.cloud.sap/docs/) instead of plain SAP Cloud SDK? See [this sister project](https://github.com/Azure-Samples/app-service-javascript-sap-cap-quickstart).
 > - In case you prefer an implementation without 3rd party library dependencies, have a look at [this sister project](https://github.com/Azure/azure-sdk-for-sap-odata).
 > - Looking for SAP Cloud SDK for Java? See this [SAP repos](https://github.com/SAP/cloud-sdk-java).
 
