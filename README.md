@@ -103,7 +103,7 @@ This command will prompt you for the following information:
 11. Update the address with a house number: [http://localhost:8080/api/business-partner/1003764/address/28238](http://localhost:8080/api/business-partner/1003764/address/28238).
 
 > [!NOTE]
-> For your convenience we provide a [collection of REST calls](/templates/business-partner-requests.http) in the repos. Execute them with the [VS Code REST client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client).
+> For your convenience we provide a [collection of REST calls](/sample-http-requests/business-partner-requests.http) in the repos. Execute them with the [VS Code REST client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client).
 
   ![screenshot of business partner address update with request details](assets/bupa-update-vsc-rest.png)
 
