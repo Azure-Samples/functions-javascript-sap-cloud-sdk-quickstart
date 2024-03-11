@@ -1,3 +1,23 @@
+---
+page_type: sample
+languages:
+- azdeveloper
+- typescript
+- bicep
+- hcl
+- powershell
+products:
+- azure
+- azure-monitor
+- azure-key-vault
+- azure-functions
+- azure-api-management
+urlFragment: functions-javascript-sap-cloud-sdk-quickstart
+name: SAP Cloud SDK on Azure Functions Quickstart
+description: Quick-start project showcasing SAP Cloud SDK for JavaScript for SAP OData running on Azure Functions.
+---
+<!-- YAML front-matter schema: https://review.learn.microsoft.com/en-us/help/contribute/samples/process/onboarding?branch=main#supported-metadata-fields-for-readmemd -->
+
 # SAP Cloud SDK on Azure Functions Quickstart🚀
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=az-function-quickstart&repo=704534226)
