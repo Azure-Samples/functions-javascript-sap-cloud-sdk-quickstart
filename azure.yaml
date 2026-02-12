@@ -17,3 +17,4 @@ services:
     project: ./src/api
     language: ts
     host: function
+    remoteBuild: true
